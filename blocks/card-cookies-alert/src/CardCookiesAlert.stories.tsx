@@ -9,7 +9,7 @@ const meta = {
   component: CardCookiesAlert,
   parameters: {
     layout: "centered",
-    githubUsername: "", // (optional) Your github username. If provided, your avatar will be displayed in the story toolbar
+    githubUsername: "Kadphol", // (optional) Your github username. If provided, your avatar will be displayed in the story toolbar
   },
   decorators: [storyDialog(Usage)],
 } satisfies Meta<typeof CardCookiesAlert>;
@@ -19,7 +19,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Alert: Story = {
   render: () => (
-    <div 
+    <div
       style={{
         width: 340,
         padding: 20,
@@ -32,5 +32,3 @@ export const Alert: Story = {
     </div>
   ),
 };
-
-
